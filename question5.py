@@ -1,7 +1,6 @@
 import os
 from predict import predict
 import cv2
-import matplotlib.pyplot as plt
 
 # QUICK PREFACE, TO RUN THIS PLEASE DELETE ALL SUBFOLDERS OF
 # /images/solution_5_images
