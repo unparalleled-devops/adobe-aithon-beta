@@ -37,15 +37,17 @@ Question 4: Uses images/ideal folder for ideal images, and prints results on ima
 
 Question 5: Takes test images from images/question_5_images, and implements the structure in images/solution_5_images 
 
-structure of solution is folder for each image
+structure of solution is 
 
-  ->folder for each entity in the image
+    ->folder for each image
 
-    ->entity.png which is picture of the entity
+        ->folder for each entity in the image
 
-    ->subfolder for each image from which similar entities were found
-    
-      ->similar entities from other image
+            ->entity.png which is picture of the entity
+
+            ->subfolder for each image from which similar entities were found
+
+                ->similar entities from other image
 
 
 
