@@ -25,8 +25,8 @@ def predict(img_url, raw_results=False, show=False):
             objects.append(obj)
 
     if show:
-        cv2.imshow("lalala", img)
-        k = cv2.waitKey(0)
+        cv2.imshow("image", img)
+        k = cv2.waitKey(100000)
 
     if raw_results:
         return results, objects
