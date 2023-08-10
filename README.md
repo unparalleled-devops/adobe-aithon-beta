@@ -3,6 +3,7 @@ ADOBE AITHON BETA
 Repository for Binary Bots Team Beta's codebase for the Adobe AI-Thon 2023
 
 LIBRARIES NEEDED:
+
 ultralytics
 cv2
 
@@ -17,12 +18,14 @@ F5. or each entity in every image find the closest matching entities from all th
 Create an express page and express your learnings.
 
 STRUCTURE
+
 images/    --> contains images for all questions, as well as some test ones
 predict.py --> contains basic model predict functionality, to be imported for use in other files
 
 each question is solved with its own python file.
 
 IMPORTANT NOTES:
+
 Question 1: you can change the image in the code to get results for different mages
 
 Question 2: similar to question 1 in changeability
@@ -41,7 +44,6 @@ structure of solution is folder for each image
 
 
 
-
-
 TOOLS
+
 YOLOv8 model -- ultralytics/ultralytics
